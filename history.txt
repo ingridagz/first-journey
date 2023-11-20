@@ -1,0 +1,156 @@
+    1  git help init
+    2  git init 
+    3  git --config --list
+    4  git config --list
+    5  git config --list --global
+    6  git config user.name test
+    7  git config user.email "test1@gmail.com"
+    8  git config --list --local
+    9  git config --global core.editor "code --wait"
+   10  touch text1.txt
+   11  ls
+   12  nano text1.txt
+   13  echo "Content B" > file2.txt
+   14  git status
+   15  git add file2.txt
+   16  git status
+   17  git add .
+   18  git status
+   19  git commit -m "working locally repository"
+   20  git status
+   21  git log
+   22  git log --oneline
+   23  git log --oneline --graph
+   24  git log --oneline --graph --all
+   25  git reset HEAD^
+   26  git reset
+   27  git status
+   28  git add file3.txt file4.txt file5.txt file6.yxt 
+   29  git add file3.txt file4.txt file5.txt file6.txt 
+   30  git add file3.txt  
+   31  tauch file3.txt
+   32  tauch file3.txt
+   33  touch file3.txt
+   34  touch file4.txt
+   35  touch file5.txt
+   36  touch file6.txt
+   37  git add file3.txt
+   38  git add file4.txt
+   39  git add file5.txt
+   40  git add file6.txt
+   41  git log
+   42  rm file3.txt
+   43  rm file4.txt
+   44  rm file5.txt
+   45  rm file6.txt
+   46  touch file3.txt
+   47  git add file3.txt
+   48  git commit -m "working 3"
+   49  git status
+   50  git log 
+   51  git log --raw
+   52  touch file7.txt
+   53  git add file7.txt
+   54  git commit -m "working 4"
+   55  git log --raw
+   56  git commit --amend -m "Change a test"
+   57  git log --raw
+   58  git branch
+   59  git -M branch main
+   60  git branch -M main
+   61  git branch
+   62  git branch dev
+   63  git branch
+   64  git checkout dev
+   65  git checkout -b bug-fix
+   66  git branch
+   67  git log --oneline --all --graph
+   68  git checkout dev
+   69  echo "Content A" > file8.txt
+   70  git status
+   71  git add .
+   72  git status
+   73  git commit -m "Dev branch"
+   74  git log --oneline --all --graph
+   75  gitk
+   76  git checkout bug-fix
+   77  touch "Test" > test10.txt
+   78  ls
+   79  git checkout main
+   80  git log --oneline
+   81  git checkout d4b6a82
+   82  git status
+   83  git add .
+   84  git status
+   85  git commit -m "New files"
+   86  echo "Content A" > file1.txt
+   87  git checkout
+   88  ls
+   89  git status
+   90  git chackout main
+   91  git checkout main
+   92  git status
+   93  echo "Content B" > file2.txt
+   94  git add  .
+   95  git commit -m "Commit A"
+   96  git status
+   97  git checkout -b feature-branch
+   98  echo "Feature Content D" > file3.txt
+   99  git status
+  100  git add .
+  101  git commit -m "Commit D"
+  102  git log --oneline --graph
+  103  git checkout main
+  104  git merge feature-branch
+  105  git log --oneline --graph
+  106  git branch -d feature-branch
+  107  git branch
+  108  git branch -D dev
+  109  git branch 
+  110  git branch -d bug-fix
+  111  git branch
+  112   echo "Content in main branch" > file1.txt
+  113  git add file1.txt
+  114  git commit -m "initrisl commit in main branch"
+  115  git checkout -b dev
+  116  echo "Content in dev branch" > file1.txt
+  117  git checkout main
+  118  git checkout dev
+  119  git add file1.txt
+  120  git status
+  121  git commit -m "Initial commit in dev branch"
+  122  git log 
+  123  git checkout main
+  124  echo "Updated content in main branch" > file1.txt
+  125  dit add file1.text
+  126  git add file1.text
+  127  git add file1.txt
+  128  git commit -m "Update content in main branch"
+  129  git merge dey
+  130  git merge dev
+  131  echo file1.txt
+  132  namo file1.txt
+  133  nano file.txt
+  134  git add .
+  135  git log --oneline --graph --all
+  136  clear
+  137  git init
+  138  git config user.name ingridagz
+  139  git config user.email ingrida.zadorozniene@gmail.com
+  140  git config --list
+  141  touch text.txt
+  142  git status
+  143  git add .
+  144  git commit -m "Try to push from local to upstream"
+  145  git remote add origin https://github.com/ingridagz/first-journey
+  146  git remote -v
+  147  git push -u origin main
+  148  git branch -M main
+  149  git push -u origin main
+  150  git add
+  151  git add .
+  152  gid commit -m "Text file change"
+  153  git commit -m "Text file change"
+  154  git log 
+  155  history
+  156  history > history.txt
